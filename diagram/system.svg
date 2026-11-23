@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 800" width="1240" height="800" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1a1a1a">
+  <title>The system: Alpha's side, the parts outside its reach, the setup assistant, and the owner as the quality gate</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .box { fill: #ffffff; stroke: #1a3a6b; stroke-width: 1.5; }
+      .out { fill: #ffffff; stroke: #666666; stroke-width: 1.5; }
+      .h { font-weight: 700; font-size: 18px; }
+      .s { font-size: 14.5px; fill: #333333; }
+      .zone { font-weight: 700; font-size: 16px; letter-spacing: 0.5px; }
+      .e { fill: none; stroke: #333333; stroke-width: 1.5; marker-end: url(#a); }
+      .w { fill: none; stroke: #666666; stroke-width: 1.5; stroke-dasharray: 6 4; marker-end: url(#a); }
+      .lab { font-size: 13.5px; fill: #333333; font-style: italic; }
+      .chip { fill: #e4ecf7; stroke: #9db3d3; }
+      .ct { font-size: 14px; fill: #1a3a6b; }
+    </style>
+  </defs>
+
+  <!-- The owner -->
+  <rect x="350" y="18" width="540" height="96" rx="8" fill="#1a3a6b"/>
+  <text x="620" y="50" text-anchor="middle" class="h" fill="#ffffff">Levi: the quality gate</text>
+  <text x="620" y="76" text-anchor="middle" class="s" style="fill:#dbe4f2">reads review packets, answers questions in a tap or a voice note</text>
+  <text x="620" y="98" text-anchor="middle" class="s" style="fill:#ffd27a">his yes: anything public · money · mail as him · access</text>
+
+  <!-- Alpha's side -->
+  <rect x="20" y="160" width="690" height="470" rx="10" fill="#eef3fa" stroke="#1a3a6b" stroke-width="1.5"/>
+  <text x="40" y="188" class="zone" fill="#1a3a6b">ALPHA'S SIDE: its own user on the laptop, no root</text>
+
+  <rect x="40" y="205" width="300" height="96" rx="6" class="box"/>
+  <text x="58" y="234" class="h">Alpha</text>
+  <text x="58" y="258" class="s">small, fast model on chat;</text>
+  <text x="58" y="278" class="s">files tasks, briefs workers</text>
+
+  <rect x="390" y="205" width="300" height="96" rx="6" class="box"/>
+  <text x="408" y="234" class="h">Review pages</text>
+  <text x="408" y="258" class="s">one packet per piece of work,</text>
+  <text x="408" y="278" class="s">intent first; notes and voice back</text>
+
+  <rect x="40" y="345" width="300" height="96" rx="6" class="box"/>
+  <text x="58" y="374" class="h">Tracker</text>
+  <text x="58" y="398" class="s">tasks and projects, in the spirit</text>
+  <text x="58" y="418" class="s">of Linear or Jira tickets</text>
+
+  <rect x="390" y="345" width="300" height="96" rx="6" class="box"/>
+  <text x="408" y="374" class="h">Workers, up to 3</text>
+  <text x="408" y="398" class="s">coding-agent sessions that build,</text>
+  <text x="408" y="418" class="s">research and test, end to end</text>
+
+  <path d="M190,301 V341" class="e"/>
+  <path d="M340,393 H386" class="e"/>
+  <text x="344" y="384" class="lab">brief</text>
+  <path d="M540,345 V305" class="e"/>
+  <text x="548" y="330" class="lab">products</text>
+
+  <text x="40" y="478" class="zone" fill="#1a3a6b">ABILITIES</text>
+  <rect x="40" y="492" width="120" height="34" rx="17" class="chip"/><text x="100" y="514" text-anchor="middle" class="ct">its own phone</text>
+  <rect x="172" y="492" width="100" height="34" rx="17" class="chip"/><text x="222" y="514" text-anchor="middle" class="ct">a browser</text>
+  <rect x="284" y="492" width="140" height="34" rx="17" class="chip"/><text x="354" y="514" text-anchor="middle" class="ct">its own mail address</text>
+  <rect x="436" y="492" width="128" height="34" rx="17" class="chip"/><text x="500" y="514" text-anchor="middle" class="ct">its own GitHub</text>
+  <rect x="576" y="492" width="114" height="34" rx="17" class="chip"/><text x="633" y="514" text-anchor="middle" class="ct">rented GPUs</text>
+  <rect x="40" y="538" width="300" height="34" rx="17" class="chip"/><text x="190" y="560" text-anchor="middle" class="ct">a heartbeat: a timer with no model in it</text>
+  <rect x="352" y="538" width="338" height="34" rx="17" class="chip"/><text x="521" y="560" text-anchor="middle" class="ct">a merge gate on its own code</text>
+  <text x="40" y="604" class="s">Free accounts and prepaid balances in its own name; nothing in Levi's name.</text>
+
+  <!-- Outside Alpha's reach -->
+  <g transform="translate(40,0)">
+  <rect x="750" y="160" width="430" height="470" rx="10" fill="#f2f2f2" stroke="#666666" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="770" y="188" class="zone" fill="#444444">OUTSIDE ALPHA'S REACH</text>
+
+  <rect x="770" y="205" width="390" height="96" rx="6" class="out"/>
+  <text x="788" y="234" class="h">Supervisor</text>
+  <text x="788" y="258" class="s">its own user; watches tool calls and traffic;</text>
+  <text x="788" y="278" class="s">alerts Levi; can freeze every agent at once</text>
+
+  <rect x="770" y="330" width="190" height="111" rx="6" class="out"/>
+  <text x="788" y="359" class="h">Mail broker</text>
+  <text x="788" y="383" class="s">Alpha drafts;</text>
+  <text x="788" y="403" class="s">each send waits</text>
+  <text x="788" y="423" class="s">for Levi's yes</text>
+
+  <rect x="970" y="330" width="190" height="111" rx="6" class="out"/>
+  <text x="988" y="359" class="h">Money</text>
+  <text x="988" y="383" class="s">prepaid balances;</text>
+  <text x="988" y="403" class="s">a budget capped</text>
+  <text x="988" y="423" class="s">outside the agent</text>
+
+  <rect x="770" y="470" width="390" height="90" rx="6" class="out"/>
+  <text x="788" y="499" class="h">Second reviewer</text>
+  <text x="788" y="523" class="s">another vendor's model reads summaries</text>
+  <text x="788" y="543" class="s">of what happened and flags what looks wrong</text>
+
+  </g>
+
+  <!-- Arrows to and from the owner -->
+  <path d="M40,253 H10 V66 H346" class="e"/>
+  <text x="24" y="58" class="lab">chat: asks, answers</text>
+  <path d="M540,201 V118" class="e" marker-start="url(#a)"/>
+  <text x="550" y="150" class="lab">packets up, answers down</text>
+  <path d="M1200,253 H1225 V66 H894" class="e"/>
+  <text x="1150" y="58" class="lab">alerts</text>
+  <path d="M810,282 H738 V560 H714" class="w"/>
+  <text x="718" y="586" class="lab">watches</text>
+  <text x="718" y="604" class="lab">all of it</text>
+  <path d="M690,393 H806" class="e"/>
+  <text x="746" y="412" class="lab">drafts</text>
+
+  <!-- The setup assistant -->
+  <rect x="20" y="680" width="690" height="100" rx="8" fill="#ffffff" stroke="#8a7a4a" stroke-width="1.5"/>
+  <text x="40" y="712" class="h">Forge, the setup assistant</text>
+  <text x="40" y="738" class="s">a coding agent in Levi's editor; builds the laptop and the supervisor;</text>
+  <text x="40" y="760" class="s">carries out the changes Alpha asks for and Levi approves</text>
+  <path d="M300,630 V676" class="e"/>
+  <text x="310" y="660" class="lab">written request</text>
+  <path d="M470,676 V634" class="e"/>
+  <text x="480" y="660" class="lab">carried out, if approved</text>
+  <path d="M710,730 H1005 V634" class="e"/>
+  <text x="730" y="722" class="lab">builds and deploys</text>
+</svg>
